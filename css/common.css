@@ -1,0 +1,405 @@
+/*
+ * @author mikhail larchanka
+ * common stylesheet's properties
+ * use it to combine styles for your elements
+ */
+
+
+
+/* BLOCK's POSITIONS */
+.fleft {
+	float: left;
+}
+.fnone {
+	float: none;
+}
+.fright {
+	float: right;
+}
+.pabs {
+	position: absolute;
+}
+.pfix {
+	position: fixed;
+}
+.prel {
+	position: relative;
+}
+
+/* TEXT's PROPERTIES */
+.tbold {
+	font-weight: 700;
+}
+.tcenter {
+	text-align: center;
+}
+.titalic {
+	font-style: italic;
+}
+.tjustify {
+	text-align: justify;
+}
+.tleft {
+	text-align: left;
+}
+.tnormal {
+	font-weight: 400;
+}
+.tnostyle {
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+}
+.toverline {
+	text-decoration: overline;
+}
+.toverunder {
+	text-decoration: overline underline;
+}
+.tright {
+	text-align: right;
+}
+.tunderline {
+	text-decoration: underline;
+}
+
+/* ELEMENT's DISPLAYING */
+.dnone {
+	display: none;
+}
+.dblock {
+	display: block;
+}
+.diblock {
+	display: inline-block;
+}
+.dstatic {
+	display: static;
+}
+
+/* ELEMENT's BORDERS */
+.bnone {
+	border: 0;
+}
+.bsolid {
+	border: 1px solid black;
+}
+.bdashed {
+	border: 1px dashed black;
+}
+.bdotted {
+	border: 1px dotted black;
+}
+.blsolid {
+	border-left: 1px solid black;
+}
+.bldashed {
+	border-left: 1px dashed black;
+}
+.bldotted {
+	border-left: 1px dotted black;
+}
+.brsolid {
+	border-right: 1px solid black;
+}
+.brdashed {
+	border-right: 1px dashed black;
+}
+.brdotted {
+	border-right: 1px dotted black;
+}
+.bbsolid {
+	border-bottom: 1px solid black;
+}
+.bbdashed {
+	border-bottom: 1px dashed black;
+}
+.bbdotted {
+	border-bottom: 1px dotted black;
+}
+.btsolid {
+	border-top: 1px solid black;
+}
+.btdashed {
+	border-top: 1px dashed black;
+}
+.btdotted {
+	border-top: 1px dotted black;
+}
+.br2px {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+.br5px {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.br10px {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+/* MARGINS */
+.m5px {
+	margin: 5px;
+}
+.m10px {
+	margin: 10px;
+}
+.m15px {
+	margin: 15px;
+}
+.m20px {
+	margin: 20px;
+}
+.mv5px {
+	margin: 5px 0;
+}
+.mv10px {
+	margin: 10px 0;
+}
+.mv15px {
+	margin: 15px 0;
+}
+.mv20px {
+	margin: 20px 0;
+}
+.mh5px {
+	margin: 0 5px;
+}
+.mh10px {
+	margin: 0 10px;
+}
+.mh15px {
+	margin: 0 15px;
+}
+.mh20px {
+	margin: 0 20px;
+}
+.ml5px {
+	margin-left: 5px;
+}
+.ml10px {
+	margin-left: 10px;
+}
+.ml15px {
+	margin-left: 15px;
+}
+.ml20px {
+	margin-left: 20px;
+}
+.ml25px {
+	margin-left: 25px;
+}
+.ml30px {
+	margin-left: 30px;
+}
+.mr5px {
+	margin-right: 5px;
+}
+.mr10px {
+	margin-right: 10px;
+}
+.mr15px {
+	margin-right: 15px;
+}
+.mr20px {
+	margin-right: 20px;
+}
+.mr25px {
+	margin-right: 25px;
+}
+.mr30px {
+	margin-right: 30px;
+}
+.mt5px {
+	margin-top: 5px;
+}
+.mt10px {
+	margin-top: 10px;
+}
+.mt15px {
+	margin-top: 15px;
+}
+.mt20px {
+	margin-top: 20px;
+}
+.mt25px {
+	margin-top: 25px;
+}
+.mt30px {
+	margin-top: 30px;
+}
+.mb5px {
+	margin-bottom: 5px;
+}
+.mb10px {
+	margin-bottom: 10px;
+}
+.mb15px {
+	margin-bottom: 15px;
+}
+.mb20px {
+	margin-bottom: 20px;
+}
+.mb25px {
+	margin-bottom: 25px;
+}
+.mb30px {
+	margin-bottom: 30px;
+}
+
+/* PADDINGS */
+.p5px {
+	padding: 5px;
+}
+.p10px {
+	padding: 10px;
+}
+.p15px {
+	padding: 15px;
+}
+.p20px {
+	padding: 20px;
+}
+.pv5px {
+	padding: 5px 0;
+}
+.pv10px {
+	padding: 10px 0;
+}
+.pv15px {
+	padding: 15px 0;
+}
+.pv20px {
+	padding: 20px 0;
+}
+.ph5px {
+	padding: 0 5px;
+}
+.ph10px {
+	padding: 0 10px;
+}
+.ph15px {
+	padding: 0 15px;
+}
+.ph20px {
+	padding: 0 20px;
+}
+.ph25px {
+	padding: 0 25px;
+}
+.ph30px {
+	padding: 0 30px;
+}
+.ph35px {
+	padding: 0 35px;
+}
+.ph40px {
+	padding: 0 40px;
+}
+.pl5px {
+	padding-left: 5px;
+}
+.pl10px {
+	padding-left: 10px;
+}
+.pl15px {
+	padding-left: 15px;
+}
+.pl20px {
+	padding-left: 20px;
+}
+.pl25px {
+	padding-left: 25px;
+}
+.pl30px {
+	padding-left: 30px;
+}
+.pl35px {
+	padding-left: 35px;
+}
+.pl40px {
+	padding-left: 40px;
+}
+.pr5px {
+	padding-right: 5px;
+}
+.pr10px {
+	padding-right: 10px;
+}
+.pr15px {
+	padding-right: 15px;
+}
+.pr20px {
+	padding-right: 20px;
+}
+.pr25px {
+	padding-right: 25px;
+}
+.pr30px {
+	padding-right: 30px;
+}
+.pr35px {
+	padding-right: 35px;
+}
+.pr40px {
+	padding-right: 40px;
+}
+.pt5px {
+	padding-top: 5px;
+}
+.pt10px {
+	padding-top: 10px;
+}
+.pt15px {
+	padding-top: 15px;
+}
+.pt20px {
+	padding-top: 20px;
+}
+.pt25px {
+	padding-top: 25px;
+}
+.pt30px {
+	padding-top: 30px;
+}
+.pt35px {
+	padding-top: 35px;
+}
+.pt40px {
+	padding-top: 40px;
+}
+.pb5px {
+	padding-bottom: 5px;
+}
+.pb10px {
+	padding-bottom: 10px;
+}
+.pb15px {
+	padding-bottom: 15px;
+}
+.pb20px {
+	padding-bottom: 20px;
+}
+.pb25px {
+	padding-bottom: 25px;
+}
+.pb30px {
+	padding-bottom: 30px;
+}
+.pb35px {
+	padding-bottom: 35px;
+}
+.pb40px {
+	padding-bottom: 40px;
+}
