@@ -8,6 +8,9 @@ Web template system for developers
 ### * Added index.html. It includes main DOM-elements for simple web-page
 
 ### * Added grid12liquid.html. It inludes DOM-structure for 12 columns grid web-page
+	- {
+		includes 'to top' JS-button
+	}
 
 ### * Added js-files :
  	- common.js {
