@@ -1,11 +1,13 @@
 MLWTS
+=============
 Web template system for developers
+-------
 
 
-Version - 0.001-alpha
-* Added index.html. It includes main DOM-elements for simple web-page
+### Version - 0.001-alpha
+### * Added index.html. It includes main DOM-elements for simple web-page
 
-* Added js-files :
+### * Added js-files :
  	- common.js {
 		variables :
 			curVersion = '0.001-alpha';
@@ -38,7 +40,7 @@ Version - 0.001-alpha
 	default scripts' directory './js/'
 	to change it - change variable 'scriptsPath' into index.html
 
-* Addes css-files :
+### * Addes css-files :
 	- styles.css {
 		used to import other css-files. You can add there you own
 	}
@@ -55,4 +57,4 @@ Version - 0.001-alpha
 	***********
 	default css's directory './css/'
 
-* Created './img/' directory as images' storage
+### * Created './img/' directory as images' storage
