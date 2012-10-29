@@ -14,6 +14,18 @@ var windowsWidth = window.innerWidth || ''; // current window width
 var windowsHeight = window.innerHeight || ''; // current window height
 var uAgent = navigator.userAgent || ''; // user agent info
 
+// html5 ie enabling
+document.createElement("article");
+document.createElement("footer");
+document.createElement("header");
+document.createElement("hgroup");
+document.createElement("nav");
+document.createElement("menu");
+document.createElement("section");
+document.createElement("aside");
+document.createElement("time");
+
+
 // common functions
 function includeJS(path, file) { // load script with filename 'file' from directory 'path'
 	var headElement = document.getElementsByTagName('head')[0];
