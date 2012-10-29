@@ -63,3 +63,8 @@ Web template system for developers
 	default css's directory './css/'
 
 ### * Created './img/' directory as images' storage
+
+Licence
+-------
+
+http://freedomdefined.org/Licenses/CC-BY-3.0
