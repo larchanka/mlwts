@@ -2,6 +2,16 @@
  * @author mikhail
  * AJAX request for GET | POST | HEAD
  * you can change errors' messages as you wish
+ * 
+ * ajaxGet - function with GET request
+ * ajaxPost - function with POST request
+ * ajaxHead - function with HEAD request 
+ * 
+ * to use functions just call it functionname(url, success, failure, type)
+ * where url - address of page you want to get/post
+ * success - name of the function for success callback
+ * failure - name of the function for error callback
+ * type (just for ajaxHead function) - name of the header which status you want to receive
  */
 
 var error404 = 'Requested URL is not found.';
