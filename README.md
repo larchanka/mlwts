@@ -64,7 +64,7 @@ Web template system for developers
 
 ### * Created './img/' directory as images' storage
 
-Licence
+License
 -------
 
 http://freedomdefined.org/Licenses/CC-BY-3.0
