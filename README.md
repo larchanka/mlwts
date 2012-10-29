@@ -7,6 +7,8 @@ Web template system for developers
 ### Version - 0.001-alpha
 ### * Added index.html. It includes main DOM-elements for simple web-page
 
+### * Added grid12liquid.html. It inludes DOM-structure for 12 columns grid web-page
+
 ### * Added js-files :
  	- common.js {
 		variables :
@@ -25,13 +27,10 @@ Web template system for developers
 			loadAllScript // includes js-files from 'scriptsList' object
 	}
 	- functions.js {
-		bodyOnLoad // scripts for load event
-		bodyOnResize // scripts for window's resize event
-		bodyOnBeforeUnload // scripts for before unload event
-		bodyOnUnload // scripts for unload event
+		describe function for body load, resize and beforeunload events
 	}
 	- ajax.js {
-		NOT UPDATED
+		Ajax-scripts for GET/POST/HEAD requests
 	}
 
 	***********
@@ -52,6 +51,12 @@ Web template system for developers
 	}
 	- fonts.css {
 		use it to add additional fonts with @font-face
+	}
+	- grid12liquid.css {
+		styles for 12 columns web-page with liquid design
+	}
+	- mystyles.css {
+		own stylesheet
 	}
 
 	***********
