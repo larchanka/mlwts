@@ -4,6 +4,20 @@
  * use it to combine styles for your elements
  */
 
+/* clearfix */
+.clearfix:before, .clearfix:after {
+	content: ".";
+	display: table;
+	visibility: hidden;
+	color: transparent;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
 /* BLOCK's POSITIONS */
 .fleft {
 	float: left;
@@ -17,7 +31,7 @@
 .pabs {
 	position: absolute;
 }
-.pfix {
+.pfixed {
 	position: fixed;
 }
 .prel {
@@ -88,6 +102,9 @@
 }
 .diblock {
 	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
 }
 .dstatic {
 	display: static;
@@ -487,4 +504,18 @@
 	background: -ms-linear-gradient(top,  rgba(41,154,11,1) 0%,rgba(41,154,11,1) 100%);
 	background: linear-gradient(to bottom,  rgba(41,154,11,1) 0%,rgba(41,154,11,1) 100%);
 	filter: progid :DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b',GradientType=0 );
+}
+
+/* VERTICAL ALIGN */
+.vatop {
+	vertical-align: top;
+}
+.vamiddle {
+	vertical-align: middle;
+}
+.vabottom {
+	vertical-align: bottom;
+}
+.vabaseline {
+	vertical-align: baseline;
 }

@@ -2,18 +2,40 @@
  * @author mikhail
  */
 
-var bodyOnLoad = function() {
-
+window.onload = function() {
+	loadAllScript();
+	var divElements = document.getElementsByClassName('vatop');
+	for (var i = 0; i < divElements.length; ++i) {
+		divElements[i].innerHTML = '&larr; ' + Math.ceil(parseInt(divElements[i].offsetWidth)) + ' &rarr;';
+	}
+	var currentTop = document.body.scrollTop;
+	if (currentTop > windowHeight / 2) {
+		document.getElementsByClassName('upbutton')[0].style.opacity = '1';
+	} else {
+		document.getElementsByClassName('upbutton')[0].style.opacity = '0';
+	}
 }
+window.onresize = function() {
+	windowWidth = window.innerWidth;
+	console.log('Window has been resized to ' + windowWidth + 'px');
 
-var bodyOnBeforeUnload = function() {
-	
+	var divElements = document.getElementsByClassName('vatop');
+	for (var i = 0; i < divElements.length; ++i) {
+		divElements[i].innerHTML = '&larr; ' + Math.floor(parseInt(divElements[i].offsetWidth)) + ' &rarr;';
+	}
 }
-
-var bodyOnUnload = function() {
-	
+window.onbeforeunload = function() {
+	return "";
 }
-
-var bodyOnResize = function() {
-
+window.onscroll = function() {
+	var currentTop = document.body.scrollTop;
+	if (currentTop > windowHeight / 2) {
+		document.getElementsByClassName('upbutton')[0].style.opacity = '1';
+	} else {
+		document.getElementsByClassName('upbutton')[0].style.opacity = '0';
+	}
+}
+var scrollToTop = function(h) {
+	window.scrollTo(0, h);
+	return false;
 }

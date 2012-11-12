@@ -10,8 +10,8 @@ var curDate = new Date(); // current date
 var curUnixTime = curDate.getTime(); // current UNIX time
 var curLocation = window.location || ''; // current document location
 var curHash = window.location.hash || ''; // current hash data
-var windowsWidth = window.innerWidth || ''; // current window width
-var windowsHeight = window.innerHeight || ''; // current window height
+var windowWidth = window.innerWidth || ''; // current window width
+var windowHeight = window.innerHeight || ''; // current window height
 var uAgent = navigator.userAgent || ''; // user agent info
 
 // html5 ie enabling

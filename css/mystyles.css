@@ -1,0 +1,37 @@
+.bggrey div {
+	background: grey;
+}
+.bgred div {
+	background: red;
+}
+.bggreen div {
+	background: green;
+}
+.bgblue div {
+	background: blue;
+}
+.bgyellow div {
+	background: yellow;
+}
+.bgorange div {
+	background: orange;
+}
+.bgblack div {
+	background: black;
+}
+.bgpink div {
+	background: pink;
+}
+.bglightblue div {
+	background: lightblue;
+}
+
+.upbutton {
+	left: 10px;
+	bottom: 10px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: white;
+	border: 1px solid grey;
+	opacity: 0;
+}
