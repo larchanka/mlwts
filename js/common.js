@@ -5,6 +5,9 @@
 // template's version'
 var curVersion = '0.001-alpha';
 
+// debug state
+var debug = true;
+
 // common information
 var curDate = new Date();
 // current date
