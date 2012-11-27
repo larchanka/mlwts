@@ -14,28 +14,60 @@
 		<script type="text/javascript" src="./js/ajax.js"></script>
 		<script type="text/javascript">
 			var scriptsPath = './js/';
-			var scriptsList = [];
+			var scriptsList = ['library.js'];
 			// ie ['filename.js', 'filename2.js']
+			// if you plan to use jQuery, disable 'library.js'!
+			loadAllScript();
 		</script>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/mystyles.css" />
 	</head>
 
 	<body>
-		<div class="wrapper">
+		<div class="wrapper tmp">
 			<header>
-				<h1>index</h1>
+				<h1>MLWTS Example file</h1>
 			</header>
 			<nav>
 				<p>
-					<a href="/">Home</a>
+					<a href="index.html">MLWTS Example file</a>
 				</p>
 				<p>
-					<a href="/contact">Contact</a>
+					<a href="grid12liquid.html" target="_blank">Liquid 12-columns grid</a>
 				</p>
 			</nav>
 
 			<div class="content">
-
+				<div id="tmpDiv" class="deleteThisClass">
+					<h2>Adding class to element</h2>
+					<pre>$('#tmpDiv').addClass('tmpClass');</pre>
+					<h2>Removing class to element</h2>
+					<pre>$('#tmpDiv').removeClass('deleteThisClass');</pre>
+				</div>
+				<div id="tmpDivForAppend">
+					<h2>Adding DIV to element</h2>
+					<div id="appendDiv"></div>
+					<pre>appendElement('appendDiv', 'div', 'div html', {attribute:value, attribute:value});</pre>
+					<h2>Adding Button to element</h2>
+					<div id="appendButton"></div>
+					<pre>appendElement('appendButton', 'button', 'Button text', {attribute:value, attribute:value});</pre>
+				</div>
+				<script type="text/javascript">
+					$('#tmpDiv').addClass('tmpClass');
+					$('#tmpDiv').removeClass('deleteThisClass');
+					appendElement('appendDiv', 'div', 'This DIV was added by Javascript. Click calls toggleClass function', {
+						'class' : 'divClass animationall',
+						'id' : 'divId',
+						'title' : 'divTitle',
+						'onclick' : '$(\'#divId\').toggleClass(\'red\')'
+					});
+					appendElement('appendButton', 'button', 'Button text', {
+						'class' : 'buttonClass',
+						'id' : 'buttonId',
+						'title' : 'buttonTitle',
+						'name' : 'cool'
+					});
+				</script>
 			</div>
 
 			<footer>
